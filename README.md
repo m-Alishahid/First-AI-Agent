@@ -1,13 +1,17 @@
-# 🤖 Agentic AI — Python-Based AI Agent Using Gemini API & UVI
+# 🤖 Agentic AI — Python-Based AI Agent Using Gemini API & UV
 
-This is my first ever Agentic AI project — a foundational step into the world of intelligent automation. Built using Python, the Gemini API from Google, and managed with the ultra-fast UVI package manager, this project is a minimal yet functional AI agent that takes your prompt, connects to the Gemini LLM, and returns a meaningful response. While it's not a full conversational agent yet, it lays the groundwork for future intelligent behavior.
+This is my first ever Agentic AI project — a foundational step into the world of intelligent automation. Built using Python, the Gemini API from Google, and managed with the ultra-fast UV package manager, this project is a minimal yet functional AI agent that takes your prompt, connects to the Gemini LLM, and returns a meaningful response. While it's not a full conversational agent yet, it lays the groundwork for future intelligent behavior.
 
 ## 🧠 What it Does
 
-- Accepts a static prompt or user-defined input
-- Sends the prompt to Gemini API
-- Returns a generated response
-- Uses UVI for fast dependency management and script execution
+This is a **single-turn agent**, meaning:
+
+- It does **not** maintain a conversation or memory.
+- You give it **one input**.
+- It sends that input to **Gemini API** using the `Runner.run_sync()` method.
+- It returns **only one response**, and the session ends there.
+
+Great for testing ideas or triggering fast single-responses from LLMs for static instructions.
 
 ## ⚙️ How to Set It Up
 
