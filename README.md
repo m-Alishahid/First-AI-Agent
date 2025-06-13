@@ -36,7 +36,9 @@ set GEMINI_API_KEY=your_api_key_here  # Windows
 
 # Step 5: Run the agent
 uv run main.py
-📦 Technologies Used
+
+
+## 📦 Technologies Used
 Python
 
 UVI (Rust-based fast package/dependency manager)
@@ -71,4 +73,4 @@ Ideal for those beginning to explore LLMs, API usage, and agent architecture.
 Open-source under the MIT License
 
 🚀 Built with passion as part of my Agentic AI learning journey.
-📸 Instagram: @codecraftali
+📸 Instagram: [https://www.instagram.com/codecraftali/]
